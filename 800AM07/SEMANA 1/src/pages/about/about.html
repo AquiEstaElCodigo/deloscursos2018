@@ -1,0 +1,23 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>about</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-item>
+        <ion-label color="primary">Nombre:</ion-label>    
+        <ion-input placeholder="ingrese su nombre:" [(ngModel)]="nombre"></ion-input>
+      </ion-item>
+
+  <button ion-button block (click)="showToast('top')">Toast Arriba</button> 
+  <button ion-button block (click)="showToast('middle')">Toast centrado</button> 
+  <button ion-button block (click)="showToast('bottom')">Toast inferior</button> 
+  <button ion-button block (click)="showLongToast()">Toast con mas tiempo</button> 
+  <button ion-button block (click)="showToastWithCloseButton()">Toast con boton de cerrar</button> 
+</ion-content>

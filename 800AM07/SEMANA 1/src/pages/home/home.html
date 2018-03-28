@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      primerAPP
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+      <ion-item>
+        <ion-label color="primary">Ingrese un numero:</ion-label>    
+        <ion-input type="number" [(ngModel)]="firstNumber"></ion-input>
+      </ion-item>
+
+    <ion-item>  
+      <ion-label color="primary">Ingrese otro numero:</ion-label>    
+      <ion-input type="number" [(ngModel)]="secondNumber"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button outline (click)="addThemFunction()" >Sumar</button>
+    </ion-item>
+
+    <ion-card>
+      <ion-card-header>
+        Calculator Results:
+      </ion-card-header>
+    
+      <ion-card-content>
+        <p>
+          First Number is...{{firstNumber}} 
+        </p>
+        <p>
+            Second Number is...{{secondNumber}} 
+        </p>
+        <p>
+            Instant total is...{{getInstantTotal()}} 
+        </p>
+        <p>
+            Calc button total is...{{total}}
+        </p> 
+
+      </ion-card-content>
+
+
+    </ion-card> 
+
+
+    <ion-item>
+        <ion-label color="primary">Resultado</ion-label>
+        <ion-input placeholder="resultado" [(ngModel)]="total"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <button ion-button color="primary" block (click)="showAlert()" >alerta</button>
+      </ion-item>
+
+      <ion-item>
+        <button ion-button color="secondary" (click)="load()">
+          Abrir otra pagina
+        </button>
+      </ion-item>
+
+    </ion-list>
+ 
+
+  <p>
+    Links: 
+    https://ionicframework.com/docs/cli/commands.html
+    https://ionicframework.com/docs/api/components/input/Input/
+    https://ionicframework.com/docs/components/#alert
+    
+    
+  </p>
+  
+
+</ion-content>
+
