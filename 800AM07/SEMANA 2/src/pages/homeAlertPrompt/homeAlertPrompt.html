@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Alert o Cuadros de dialogo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating color="primary">Ingrese un texto</ion-label>
+      <ion-input type="text" [(ngModel)]="texto"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button block color="primary" (click)="mostrarAlert()">
+        Aceptar
+      </button>
+    </ion-item>
+    <ion-item>
+        <button ion-button block color="secondary" (click)="mostrarPromptAlert()">
+          Aceptar II
+        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>{{ textoLabelPrompt }}</ion-label>
+      </ion-item>
+  </ion-list>
+</ion-content>
