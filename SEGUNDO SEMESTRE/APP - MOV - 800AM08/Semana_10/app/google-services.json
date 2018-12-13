@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "10947801871",
+    "firebase_url": "https://miercoles-22.firebaseio.com",
+    "project_id": "miercoles-22",
+    "storage_bucket": "miercoles-22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10947801871:android:5c8d4081375575b4",
+        "android_client_info": {
+          "package_name": "com.example.german_rs.semana_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10947801871-ncuu9l6r5ttg3ar7nsk6c19egrijemo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlnyhroqyjakmBsADUr492aDd1KP9fYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

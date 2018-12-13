@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EJERCICIOS I"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_mostrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOSTRAR NOTIFICACIÓN" />
+
+            <EditText
+                android:id="@+id/et_mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="mensaje" />
+
+            <Button
+                android:id="@+id/btn_mostrar_msj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOSTRAR TEXTO" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EJERCICIOS II"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nombre" />
+
+            <EditText
+                android:id="@+id/et_apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Apellido" />
+
+            <EditText
+                android:id="@+id/et_edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Edad" />
+
+            <Button
+                android:id="@+id/btn_mostrar_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ejercicios_2"
+                android:text="MOSTRAR DATOS" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EJERCICIOS III"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_mostrar_datos2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ejercicios_3"
+                android:text="MOSTRAR DATOS II" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EJERCICIOS IV"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn_mostrar_datos3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ejercicios_4"
+                android:text="MOSTRAR DATOS III" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EJERCICIOS V"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn_abrir_segunda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="abrirSegundaActividad"
+                android:text="ABRIR SEGUNDA ACTIVIDAD" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

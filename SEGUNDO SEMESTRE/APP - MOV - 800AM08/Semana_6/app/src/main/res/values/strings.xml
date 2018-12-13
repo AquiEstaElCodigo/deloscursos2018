@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Semana_6</string>
+    <string name="texto_btn">Guardar archivo</string>
+    <string name="file_i_o">FILE I/O</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidFirebase</string>
+    <string name="BotonMostrarMensaje">Cancelar</string>
+</resources>
